@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import '../animalItem.dart';
 
 class FirstApp extends StatelessWidget {
-  final List<Animal>? list;
-  const FirstApp({super.key, this.list});
+  List<Animal>? list;
+  FirstApp({super.key, this.list});
 
   @override
   Widget build(BuildContext context) {
